@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+
+     <script>
+        function divcall(){
+            const num1=Number(document.getElementById("num1").value);
+            const num2=Number(document.getElementById("num2").value);
+            const sum=num1+num2;
+            const element=document.getElementById('result');
+            element.innerHTML=sum
+        }
+    </script>
+<body>
+    
+    <input type="text" name="" id="num1"><br>
+    <input type="text" name="" id="num2"><br>
+    <button  onclick="divcall()">submit</button>
+    <div id="result"></div>
+   
+</body>
+</html>
